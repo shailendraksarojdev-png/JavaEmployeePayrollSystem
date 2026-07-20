@@ -2,7 +2,7 @@ package emp;
 
 import java.util.ArrayList;
 
-class PartTimeEmployee extends Employee {
+public class PartTimeEmployee extends Employee {
     private double hourlyRate;
     private int hoursWorked;
 
@@ -16,13 +16,8 @@ class PartTimeEmployee extends Employee {
     public double calculateSalary() {
         return hourlyRate * hoursWorked;
     }
-}
 
-class PayrollEmployee{
-
-    private ArrayList<Employee> employees;
-
-    public PayrollEmployee() {
-        employees = new ArrayList<>();
+    public void setHourlyRate(double newSalary) {
+        this.hourlyRate = newSalary;
     }
 }
