@@ -3,8 +3,8 @@ package emp;
 public class FullTimeEmployee  extends Employee {
     private double monthlySalary;
 
-    public FullTimeEmployee(int id, String name, double monthlySalary) {
-        super(id, name);
+    public FullTimeEmployee(int id, String name, String role, double monthlySalary) {
+        super(id, name, role);
         this.monthlySalary = monthlySalary;
     }
 
