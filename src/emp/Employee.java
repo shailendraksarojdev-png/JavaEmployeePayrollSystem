@@ -1,3 +1,5 @@
+package emp;
+
 abstract public class Employee {
 
     private int Id;
@@ -20,7 +22,7 @@ abstract public class Employee {
 
     @Override
     public String toString() {
-        return "Employee{" +
+        return "emp.Employee{" +
                 "Id=" + Id +
                 ", name='" + name + '\'' +
                 ", Salary='" + calculateSalary() + '\'' +

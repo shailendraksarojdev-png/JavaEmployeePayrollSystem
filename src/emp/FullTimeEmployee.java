@@ -1,3 +1,5 @@
+package emp;
+
 public class FullTimeEmployee  extends Employee {
     private double monthlySalary;
 
@@ -11,3 +13,5 @@ public class FullTimeEmployee  extends Employee {
         return monthlySalary;
     }
 }
+
+
